@@ -1,0 +1,174 @@
+body { /* main font and alternate used in body of page */
+	font-family:	sans-serif, verdana; 
+	background-color: white;
+	}
+
+header { /* set the main header banner size and colour */
+	height: 100px; 
+	background-color:	purple;
+	margin-bottom: 20px;
+	}
+	
+header h1 {	/* Main header font */
+	font-family:	"curlz MT";
+	font-size:	40px;
+	color: white;
+	padding-left:	40px;
+	padding-top: 20px;
+	}
+	
+#shopmsg { /* message in shop page*/
+	text-align: center;
+	color: gray;
+	}
+	
+p { /* colour used for main text*/
+	color: gray;
+	clear:	both;
+	}
+	
+a { /* remove underscore from links*/
+	text-decoration: none;
+	}
+
+#logo { /* Set logo size */
+	width: 1346px;
+	}
+	
+#equipetlogo{ /* sponsor logo size */
+	margin: 20px 50px;
+	}
+	
+#smalllogo { /* Set logo size */
+	float:	left;
+	}
+	
+#indexmainimage{ /* main image, position to left */
+	float: left;
+	}
+	
+#underconstruction{/* under construction logo size and position */
+	float: left;
+	margin: 10px 50px;
+	}
+	
+nav { /* Navigation bar size and colour */
+	background-color:	white;
+	height: 108px;
+	}
+
+nav p { /* Nav bar position and padding */
+	float: left;
+	padding: 20px;
+	}
+
+nav ul { /* Nav bar list position */
+	float:	left;
+	}
+	
+nav ul li { /* Nav bar list items size and position  */
+	display:	block;
+	text-align: center;
+	padding:	10px;
+	margin-left: 20px;
+	position: relative;
+	float: left;
+	}
+	
+nav ul li ul { /* Nav bar drop down list */
+	display:	none;
+	position: absolute;
+	background:	purple;
+	padding: 0;
+	margin-left: -10px;
+	border-radius: 0px 0px 5px 5px;
+	}
+	
+nav ul li:hover ul { /* Nav bar list items hover  */
+	display:	block;
+	}
+		
+nav ul li ul li a { /* nav bar drop down item link look*/
+	text-decoration: none;
+	font-size:	20px;
+	color: gray;
+	padding: 0px;
+	}
+
+nav ul li ul li a:hover { /* Nav bar drop down menu item link hover */
+	background-color: purple;
+	color:	white;
+	border-radius: 5px;
+	}
+
+nav ul li a { /* nav bar list item link  */
+	text-decoration: none;
+	font-size:	20px;
+	color: gray;
+	}
+	
+
+	
+nav ul li a:hover { /* nav bar list item link hover */
+    background-color: purple;
+	color:	white;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	}
+
+nav ul li a.current_page { /* nav bar current page highlight*/
+	background-color: purple;
+	color:	white;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	}
+
+
+/*#main p{
+	color:	red;
+	}*/
+
+#maintext{ /* main text in home page */
+	display: table-cell;
+    vertical-align: middle;	
+	height: 314px;
+	}
+	
+#incare{ /* main text in Animals in care page  */
+	
+	width: 1020px;
+	margin:	0 auto;
+	}
+	
+.feature { /* image position in Animals in care page*/
+	float: left;
+	width: 305px;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	}
+	
+.animalsincare { /*Images of pets position*/
+	float: left;
+	width: 305px;
+	margin: 5px;
+	padding: 5px;
+	text-align: left;
+	}
+	
+ hr { /*move horizontal break below floated items */
+	clear: both;
+	}
+	
+footer{ /*move footer below floated items */
+	clear:	both;
+	}
+
+	
+
+
+	
